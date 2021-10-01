@@ -1,0 +1,30 @@
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  height: 55px;
+  padding: 0px 20px;
+  color: black;
+  .logo {
+  }
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .list-item {
+      margin: 10px;
+      cursor: pointer;
+    }
+    & :hover {
+      color:rebeccapurple !important;
+      transform: scale(1.5);
+      font-weight: 600;
+    }
+  }
+}

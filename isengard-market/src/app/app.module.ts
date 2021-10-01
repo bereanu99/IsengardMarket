@@ -23,7 +23,7 @@ import { ArtistPageComponent } from './features/artist-page/artist-page.componen
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    SharedClassicModule
+    SharedClassicModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
